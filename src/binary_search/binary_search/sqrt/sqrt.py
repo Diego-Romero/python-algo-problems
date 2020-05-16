@@ -8,7 +8,6 @@ class Sqrt:
         while start <= end:
             mid = start + (end - start) // 2
             num = mid * mid
-            print(mid, num)
 
             if num > x:
                 end = mid - 1
